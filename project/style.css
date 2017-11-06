@@ -5,8 +5,9 @@ body {
 	width: auto;
 	padding: 10px;
 	float: left;
-	margin-left: 40px;
-	margin-right: 40px;
+	margin-top: 20px;
+	margin-left: 300px;
+	margin-right: 350px;
 	background-color: green;
 	color: yellow;
 	border-radius: 5px;
@@ -14,32 +15,61 @@ body {
 /* Вход */
 .user-block {
 	width: 100px;
-	padding: 10px 10px 10px 27px;
+	padding: 10px;
 	border-radius: 5px;
-	float: left;
+	float: right;
 	background-color: green;
 	box-sizing: border-box;
+	margin-top: 20px;
+	margin-right: 20px;
 	
 	
 }
 .index-logo {
 	width: 97px;
 	float: left;
+
 }
-.main-header: {
-border: {
-	1px solid black;
-}
+.main-header {
+border: 1px solid black;
+min-height: 95px;
+padding-left: 40px;	
 }
 span {
-	padding: 5px;
+	padding: 25px;
 	color: yellow;
 }
 .container: {
 	background-color: green;
 }
 .index-logo {
+	border: 1px solid black;
+}
+.column1, .column2, .column3 {
+	border: 1px solid black;
+	min-height: 60px;
+}
+.column1 {
+	margin-top: 20px;
 	
+	width: 350px;
+	float: left;
+	background-color: blue;
+}
+.column2 {
+	width: 600px;
+	margin: 20px;
+	float:left;
+	background-color: green;
+	
+}
+.column3 {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
+	float: left;
+	background-color: red;
 }
 
 	
