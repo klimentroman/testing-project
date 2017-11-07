@@ -1,12 +1,14 @@
 body {
 	background-color: lightgreen;
+	
 }
 .main-navigation {
-	width: auto;
+	width: 728px;
 	padding: 10px;
 	float: left;
-	margin-left: 40px;
-	margin-right: 40px;
+	margin-top: 20px;
+	margin-left: 300px;
+	margin-right: 300px;
 	background-color: green;
 	color: yellow;
 	border-radius: 5px;
@@ -14,33 +16,93 @@ body {
 /* Вход */
 .user-block {
 	width: 100px;
-	padding: 10px 10px 10px 27px;
+	padding: 10px;
 	border-radius: 5px;
-	float: left;
+	float: right;
 	background-color: green;
 	box-sizing: border-box;
+	margin-top: 20px;
+	margin-right: 20px;
 	
 	
 }
 .index-logo {
 	width: 97px;
 	float: left;
+
 }
-.main-header: {
-border: {
-	1px solid black;
-}
+.main-header {
+background-image: url(img/background.jpg);
+background-size: cover;
+min-height: 95px;
+padding-left: 40px;	
 }
 span {
-	padding: 5px;
+	padding: 25px;
 	color: yellow;
 }
 .container: {
 	background-color: green;
 }
 .index-logo {
+	width:100px;
+}
+.column1, .column2, .column3 {
+	border: 3px solid yellow;
+	border-radius: 10px;
+	min-height: 60px;
+}
+.column1 {
+	width: 415px;
+	float: left;
+	padding: 10px;
+	background-color: #9fffff;
+	color: #221fff;
 	
 }
+.column2 {
+	width: 700px;
+	padding: 20px;
+	float:left;
+	background-color: green;
+
+	
+}
+.column3 {
+	width:430px;
+	background-color: #94ffb7;
+	float:left;
+}
+.main-body {
+	clear: both;
+}
+.div1 {
+	min-height:80px;
+	width: 315px;
+	margin-right:28px;
+	float: left;
+}
+.div2 {
+	min-height: 80px;
+	width: 315px;
+	background-color: white;
+	float: right;
+}
+h1 {
+	text-align: center;
+	color: red;
+}
+h3 {
+	text-align: center;
+}
+.actual-article a {
+	color: red;
+}
+.rosa, .Shema-posadki, .gazaniya {
+	float:left;
+	margin-right: 10px;
+}
+
 
 	
 	
